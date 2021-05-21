@@ -1,0 +1,19 @@
+
+
+main{
+    .container {
+
+        @include flex(column, center, center);
+    
+        h1 {
+    
+            color: $lugia-blue;
+        }
+
+        ul {
+
+            list-style-type: none;
+            color: $lugia-blue;
+        }
+    }
+}
