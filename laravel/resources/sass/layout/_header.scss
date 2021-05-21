@@ -7,7 +7,7 @@ header {
     .header-top {
         @include container(60%);
         height: 100%;
-        @include flex(row,center,center);
+        @include flex(row,space-between,center);
         color: inherit;
     }
 }

@@ -1,5 +1,6 @@
 <header>
     <div class="header-top">
+        @yield('back-homepage')
         <h2>
             Movies DB Header
         </h2>
